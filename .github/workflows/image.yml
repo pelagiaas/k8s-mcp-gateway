@@ -2,8 +2,8 @@ name: Build and Publish Gateway Container Image
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
+  # push:
+  #   branches: [main]
 
 jobs:
   build-and-push-image:
